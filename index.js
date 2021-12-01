@@ -3,4 +3,5 @@ module.exports = {
     scoring : require("./scoring"),
     statistics: require("./statistics"),
     enum: require("./enum/enum.js"),
+    dealer: require('./dealer'),
 }

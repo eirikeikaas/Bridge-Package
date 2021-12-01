@@ -1,7 +1,8 @@
 module.exports = {
-    card : require("./features/card.js"),
-    deck : require("./features/deck.js"),
-    hand : require("./features/hand.js"),
+    card : require("./features/card/card.js"),
+    cardset : require("./features/cardset/cardset.js"),
+    bidding : require("./features/bidding/bidding.js"),
     player : require("./features/player.js"),
-    shuffle : require("./features/shuffle.js"),
+    deal : require("./features/deal.js"),
+    board : require("./features/board.js"),
 }
